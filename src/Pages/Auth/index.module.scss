@@ -1,0 +1,165 @@
+
+
+.loginSection {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center / cover no-repeat;
+  background-color: rgb(63, 63, 63);
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  background-image: url('../Auth/background.png');
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 386px;
+  max-width: 85%;
+  background-color: rgb(31 31 31);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px 10px rgb(135 135 135 / 25%);
+
+ 
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 42px 0;
+  margin: 9px 0 27px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+ 
+}
+
+.formHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px ;
+  width: 100%;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+  margin: 0 30px 0 auto;
+  width: 289.5px;
+  max-width: 85%;
+
+}
+
+.loginTab {
+  display: flex;
+  justify-content: center;
+  font: italic 600 20px/1.2 Inter, Helvetica, Arial, serif;
+  color: rgb(224 224 224);
+  text-align: center;
+  margin-left: 10px;
+  
+  
+
+}
+
+.registrationTab {
+  display: flex;
+  justify-content: center;
+  font: italic 600 20px/1.2 Inter, Helvetica, Arial, serif;
+  color: rgb(224 224 224);
+  text-align: center;
+  margin-right: 20px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-style:dashed ;
+
+ 
+}
+
+.tabDivider {
+  width: 100%;
+  height: 1px;
+  min-height: 1px;
+  background-color: rgb(255 255 255);
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  gap: 26px 0;
+  width: 243.984375px;
+  max-width: 85%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.usernameInput {
+  min-height: 25px;
+  background-color: rgb(217 217 217);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  
+}
+
+.passwordInput {
+  min-height: 25px;
+  background-color: rgb(217 217 217);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  font: italic 600 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: rgb(224 224 224);
+  text-align: center;
+  background-color: rgb(71 71 71);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  &:hover{
+    background-color: rgb(88, 88, 88);
+  }
+  padding: 5px 5px;
+  border:none;
+  cursor: pointer;
+}
+
+.passwordRecovery {
+  font: italic 600 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: rgb(0 0 0);
+  text-align: center;
+}
+
+.passwordRecovery_box {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 20px;
+  width: 200px;
+  max-width: 85%;
+}
+
+.passwordRecovery_span0 {
+  font: italic 600 1em/1.25 Inter, Helvetica, Arial, serif;
+  color: rgb(182 176 176);
+}
+
+.passwordRecovery_span1 {
+  font: italic 600 1em/1.25 Inter, Helvetica, Arial, serif;
+  color: rgb(255 255 255);
+}
